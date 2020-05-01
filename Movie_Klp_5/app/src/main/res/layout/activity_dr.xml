@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".DrActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg2"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="A story about Boo Yong-joo (Han Suk-kyu), a genius and triple-board certified surgeon, who was once at the top of his field and used to work at Seoul's top hospital, Geosan University. After a traumatic incident, he disappears and changes his name to Kim Sa-bu. He begins working at a small hospital named Doldam, located in Gangwon Province. He guides Kang Dong-joo (Yoo Yeon-seok) and Yoon Seo-jeong (Seo Hyun-jin) to become great doctors by teaching them to fight against power and money for the sake of patients. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Watch"
+        android:onClick="dr"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Back"
+        android:onClick="back"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

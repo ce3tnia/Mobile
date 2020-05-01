@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".PandaActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg2"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="11sp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Po is now living his dream as The Dragon Warrior, protecting the Valley of Peace alongside his friends and fellow kung fu masters, The Furious Five – Tigress, Crane, Mantis, Viper and Monkey. But Po’s new life of awesomeness is threatened by the emergence of a formidable villain, who plans to use a secret, unstoppable weapon to conquer China and destroy kung fu. It is up to Po and The Furious Five to journey across China to face this threat and vanquish it. But how can Po stop a weapon that can stop kung fu? He must look to his past and uncover the secrets of his mysterious origins; only then will he be able to unlock the strength he needs to succeed."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Watch"
+        android:onClick="panda"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Back"
+        android:onClick="back"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.movie_klp_5">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ReadyActivity"></activity>
+        <activity android:name=".ParasiteActivity" />
+        <activity android:name=".JokerActivity" />
+        <activity android:name=".HalloweenActivity" />
+        <activity android:name=".AquiteActivity" />
+        <activity android:name=".TitanicActivity" />
+        <activity android:name=".FaultActivity" />
+        <activity android:name=".MeActivity" />
+        <activity android:name=".LondonActivity" />
+        <activity android:name=".FiveActivity" />
+        <activity android:name=".ZodiacActivity" />
+        <activity android:name=".UnderActivity" />
+        <activity android:name=".TranceActivity" />
+        <activity android:name=".ShutterActivity" />
+        <activity android:name=".BeforeActivity" />
+        <activity android:name=".NunActivity" />
+        <activity android:name=".ConjuringActivity" />
+        <activity android:name=".ItActivity" />
+        <activity android:name=".InsidiousActivity" />
+        <activity android:name=".AnnabelleActivity" />
+        <activity android:name=".PlayingActivity" />
+        <activity android:name=".OzActivity" />
+        <activity android:name=".MyActivity" />
+        <activity android:name=".PandaActivity" />
+        <activity android:name=".InActivity" />
+        <activity android:name=".LovewActivity" />
+        <activity android:name=".LoveActivity" />
+        <activity android:name=".HotelActivity" />
+        <activity android:name=".DrActivity" />
+        <activity android:name=".DocActivity" />
+        <activity android:name=".SuperbadActivity" />
+        <activity android:name=".ShaunofActivity" />
+        <activity android:name=".NeighborsActivity" />
+        <activity android:name=".BoratActivity" />
+        <activity android:name=".AnchormanActivity" />
+        <activity android:name=".TomnjerryActivity" />
+        <activity android:name=".SpongebobActivity" />
+        <activity android:name=".ShaunActivity" />
+        <activity android:name=".ShaunActiivity" />
+        <activity android:name=".NarutoActivity" />
+        <activity android:name=".MinionsActivity" />
+        <activity android:name=".LionActivity" />
+        <activity android:name=".JumanjiActivity" />
+        <activity android:name=".EverestActivity" />
+        <activity android:name=".AlitaActivity" />
+        <activity android:name=".MissionImpossibleActivity" />
+        <activity android:name=".JhonWick3Activity" />
+        <activity android:name=".FastFuriousActivity" />
+        <activity android:name=".DunkirkActivity" />
+        <activity android:name=".SkywalkerActivity" />
+        <activity android:name=".FamilyActivity" />
+        <activity android:name=".MysteryActivity" />
+        <activity android:name=".ThrillerActivity" />
+        <activity android:name=".RomanceActivity" />
+        <activity android:name=".ComedyActivity" />
+        <activity android:name=".AdventureActivity" />
+        <activity android:name=".HorrorActivity" />
+        <activity android:name=".DramaActivity" />
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".IpmanActivity" />
+        <activity android:name=".ActionActivity" />
+        <activity android:name=".BerandaActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".DaftarActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

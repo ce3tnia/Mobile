@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".ParasiteActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg2"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:text="All unemployed, Ki-taek’s family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Watch"
+        android:onClick="parasite"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Back"
+        android:onClick="back"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

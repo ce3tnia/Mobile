@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".BeforeActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg2"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="A woman wakes up every day, remembering nothing as a result of a traumatic accident in her past. One day, new terrifying truths emerge that force her to question everyone around her."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Watch"
+        android:onClick="before"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Back"
+        android:onClick="back"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

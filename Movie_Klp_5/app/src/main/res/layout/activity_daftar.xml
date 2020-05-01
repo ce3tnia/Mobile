@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".DaftarActivity">
+
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="20dp"
+            android:paddingBottom="16dp"
+            android:hint="Email"
+            android:id="@+id/email"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="20dp"
+            android:paddingBottom="16dp"
+            android:hint="Password"
+            android:id="@+id/password"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Password"
+            android:id="@+id/showPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:background="#03A9F4"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:paddingTop="15dp"
+            android:text="Have an Account? Login Here.."/>
+    </LinearLayout>
+
+    <TextView
+        android:text="Sign Up"
+        android:id="@+id/judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="99dp"
+        android:layout_height="74dp"
+        android:layout_below="@id/judul"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/daftar" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "645281403444",
+    "firebase_url": "https://movieklp5.firebaseio.com",
+    "project_id": "movieklp5",
+    "storage_bucket": "movieklp5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645281403444:android:53d84ae5e453da7cb57061",
+        "android_client_info": {
+          "package_name": "com.example.movie_klp_5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645281403444-carddmn1e3pj732p39a5uqo6peqa7sqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSOMafw2je-zTdeVrt0U4IbkwG_9O7Zww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645281403444-carddmn1e3pj732p39a5uqo6peqa7sqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
